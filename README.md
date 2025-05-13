@@ -95,9 +95,9 @@ UnitTests: Pruebas para validar el comportamiento de unidades individuales de c�
 Frontend: Patrones y Estilos de Arquitectura Implementados
 Inyección de Dependencias: Uso de inyección automática para gestionar servicios en los componentes.
 
-Rutas Protegidas: Implementación de AuthGuard para restringir el acceso a usuarios autenticados.
+Rutas Protegidas: Implementación de AuthGuard e interceptores para restringir el acceso a usuarios no autenticados.
 
-Manejo de Estado Local: Uso de localStorage para persistir datos de usuarios autenticados y favoritos.
+Manejo de Estado Local: Uso de localStorage para persistir datos de usuarios autenticados.
 
 Servicios para Lógica de Negocio: Separación de lógica en servicios (AuthService, FavoritesService) para mantener los componentes ligeros y organizados.
 
